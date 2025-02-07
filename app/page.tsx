@@ -3,7 +3,6 @@ import { AddPassword } from "@/components/add-password";
 import { YourCards } from "@/components/your-cards";
 import { YourPassword } from "@/components/your-password";
 import { Metadata } from "next";
-import { clerkClient } from "@clerk/nextjs/server";
 import { currentUser } from "@clerk/nextjs/server";
 
 export const metadata: Metadata = {

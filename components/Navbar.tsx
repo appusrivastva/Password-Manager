@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Moon, MoonIcon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 import { Button } from "@/components/ui/button";
@@ -13,7 +13,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { SignInButton } from "@clerk/nextjs";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
-import toast from "react-hot-toast";
 export default function Navbar() {
   const { setTheme } = useTheme();
   return (
